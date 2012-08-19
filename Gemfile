@@ -1,1 +1,2 @@
 gem 'gosu'
+gem 'releasy'
