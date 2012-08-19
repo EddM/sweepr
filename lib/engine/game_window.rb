@@ -8,7 +8,7 @@ class GameWindow < Gosu::Window
     @@current = self 
     
     @audio_bank = AudioBank.new(self)
-    @board = GameBoard.new(self, Difficulty::Hard)
+    @board = GameBoard.new(self, Difficulty::Easy)
     @font = Gosu::Font.new(self, "res/8bitoperator_jve.ttf", 16)
     @keylog = []
   end
