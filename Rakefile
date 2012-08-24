@@ -17,4 +17,10 @@ Releasy::Project.new do
     add_package :tar_gz
     icon "res/icon.icns"
   end
+  
+  add_build :windows_standalone do
+    #icon "res/icon.ico"  # Optional
+    exclude_encoding
+    add_package :zip
+  end
 end
